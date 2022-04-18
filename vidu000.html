@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vi du</title>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>Ho ten:</td> 
+				<td><input type="text" name="hoten"></td>
+			</tr>
+			<tr>
+				<td>Gioi tinh:</td>
+				<td>
+					<input type="radio" name="gioitinh" value="nam"> Nam &nbsp;
+					<input type="radio" name="gioitinh" value="nu"> Nu &nbsp;
+					<input type="radio" name="gioitinh" value="khac"> Khac
+				</td>
+			</tr> 
+			<tr>
+				<td valign="top">So thich: </td>
+				<td>
+					<input type="checkbox" name="sothich">Nghe nhac <br>
+					<input type="checkbox" name="sothich">Xem phim <br>
+					<input type="checkbox" name="sothich">Doc tieu thuyet <br>
+					<input type="checkbox" name="sothich">Choi game <br>
+				</td>
+			</tr>
+			<tr>
+				<td>Ma so: </td>
+				<td><input type="text" name="maso"></td>
+			</tr>
+			<tr>
+				<td>Lop: </td>
+				<td><input type="text" name="lop"></td>
+			</tr>
+			<tr>
+				<td>Bo mon: </td>
+				<td>
+					<select name="bomon" size="2">
+						<option value="cnhoahoc">CN Hoa hoc</option>
+						<option value="tudonghoa">Tu dong hoa</option>
+						<option value="qlcongnghiep">QL Cong nghiep</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Khoa: </td>
+				<td><input type="text" name="khoa"></td>
+			</tr>
+		</table>
+		<p><b><i>Thong tin khac: </i></b></p><br>
+		<textarea name="thongtinkhac" rows="10" cols="30"></textarea>
+		<br>
+		<input type="submit" value="Submit"> &nbsp; &nbsp; &nbsp;
+		<input type="reset" name="Reset">
+	</form>
+</body>
+</html>
